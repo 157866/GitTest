@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app
+        xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+        metadata-complete="false"
+        version="3.1">
+    <!-- 注意这里的<web-app>的version="3.1"属性。有一些旧的版本是2.5，会导致jetty不能扫描注解来注册servlet。 -->
+
+    <!--  根据下面的格式，手动注册Servlet，但不推荐。建议使用注解注册Servlet。 -->
+<!--
+    <servlet>
+        <servlet-name>Hello</servlet-name>
+        <servlet-class>org.example.HelloServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Hello</servlet-name>
+        <url-pattern>/hello/*</url-pattern>
+    </servlet-mapping>
+-->
+
+</web-app>
