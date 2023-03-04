@@ -10,5 +10,6 @@ public class GitTest {
         System.out.println("git");
         System.out.println("gitTest");
         System.out.println("hot-fix test");
+        System.out.println("远程库更新了");
     }
 }
